@@ -41,5 +41,13 @@
     "jquery": "^3.4.1"
   },
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZaArtik/Dropbox.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ZaArtik/Dropbox/issues"
+  },
+  "homepage": "https://github.com/ZaArtik/Dropbox#readme",
   "description": ""
 }

@@ -52,6 +52,15 @@ module.exports = {
                     }
                 ],
             },
+            {
+                test: /\.(png|svg|jp(e*)g|gif|mp3|mp4)$/,
+                use: [{
+                    loader: 'file-loader',
+                    options: {
+                        name: 'assets/[name].[ext]'
+                    }
+                }]
+            }
         ]
     },
     optimization: {

@@ -1,0 +1,58 @@
+.element {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background: #fff;
+
+    &__btn {
+        padding: 7px 20px;
+        background: #1aaaff;
+        border: 1px solid #fff;
+        color: #fff;
+        transition: 350ms;
+        outline: none;
+        cursor: pointer;
+
+        &:hover {
+            background: #fff;
+            border: 1px solid #1aaaff;
+            color: #1aaaff;
+        }
+
+        &-container {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 15px;
+        }
+    }
+
+    &__menu {
+        display: flex;
+        justify-content: space-between;
+
+        &-item {
+            &:last-child {
+                a {
+                    &::after {
+                        content: '';
+                    }
+                }
+            }
+        }
+
+        &-link {
+            color: #1aaaff;
+            font-weight: bold;
+            font-size: 14px;
+
+            &:hover {
+                color: #8ed3f5;
+            }
+
+            &::after {
+                content: '/';
+                margin-left: 3px;
+            }
+        }
+    }
+}

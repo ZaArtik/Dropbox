@@ -17,6 +17,7 @@
         "space-before-function-paren":["error", "never"],
         "operator-linebreak": ["error", "after"],
         "arrow-parens": ["error", "as-needed"],
-        "no-param-reassign": ["error", { "props": false }]
+        "no-param-reassign": ["error", { "props": false }],
+        "no-unused-expressions": ["error", { "allowShortCircuit": false, "allowTernary": false, "allowTaggedTemplates": true }]
     }
 }
